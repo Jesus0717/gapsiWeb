@@ -33,7 +33,6 @@ export class ProvidersComponent implements OnInit {
     this.providerServices.getProviders().subscribe(
       (providers) => {
         this.providers = providers;
-        console.log(this.providers);
       },
       (err) => console.error(err)
     );

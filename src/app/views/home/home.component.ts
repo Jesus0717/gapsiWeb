@@ -30,7 +30,6 @@ export class HomeComponent implements OnInit {
     this.userService.getUsers().subscribe(
       (users) => {
         this.user = users;
-        console.log(this.user);
       },
       (err) => console.error(err)
     );

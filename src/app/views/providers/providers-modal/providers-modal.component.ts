@@ -34,7 +34,6 @@ export class ProvidersModalComponent implements OnInit {
   }
 
   submitForm() {
-    console.log('Formulario enviado:', this.formData);
     this.providerServices.addProviders(this.formData).subscribe(
       (res) => {
         this.closeModal();

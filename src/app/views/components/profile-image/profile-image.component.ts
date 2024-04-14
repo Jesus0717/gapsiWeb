@@ -10,7 +10,5 @@ export class ProfileImageComponent implements OnInit {
   @Input() profileImage: any;
   constructor() {}
 
-  ngOnInit() {
-    console.log(this.profileImage);
-  }
+  ngOnInit() {}
 }
