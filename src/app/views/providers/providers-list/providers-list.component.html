@@ -1,0 +1,24 @@
+<table class="tabla-datos">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Razón Social</th>
+      <th>Dirección</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for(provider of listProviders; track provider.id){
+    <tr>
+
+        <td>{{ provider._id }}</td>
+        <td>{{ provider.name }}</td>
+        <td>{{ provider.lastName }}</td>
+        <td>{{ provider.rs }}</td>
+        <td>{{ provider.address }}</td>
+
+    </tr>
+  }
+  </tbody>
+</table>

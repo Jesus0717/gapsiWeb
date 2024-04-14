@@ -1,0 +1,7 @@
+<div class="container home-container">
+  @for(use of user; track use.id ){
+    <app-profile-image [profileImage]="use.image"></app-profile-image>
+  <h1>Bienvenido {{use.name + '  ' + use.lastName}}</h1>
+  }
+  <button  routerLink="/providers" routerLinkActive="active"  type="button" class="btn btn-primary">Continuar</button>
+</div>

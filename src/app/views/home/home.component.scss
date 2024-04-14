@@ -1,0 +1,18 @@
+.home-container{
+  text-align: center;
+  app-profile-image{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+  }
+  h1{
+    padding: 20px 0;
+  }
+
+  button{
+    width: 30%;
+    font-size: xx-large;
+    background-color: rgb(37, 150, 190);
+    border: 0 !important;
+  }
+}
